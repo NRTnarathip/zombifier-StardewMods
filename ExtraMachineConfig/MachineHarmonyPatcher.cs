@@ -594,11 +594,7 @@ sealed class MachineHarmonyPatcher
                     }
                     __result.Stack = (int)Utility.ApplyQuantityModifiers(baseOutputStack, outputData.StackModifiers, outputData.StackModifierMode, machine.Location, who, __result, inputItem);
 
-                    // original: Bug here
-                    //SObject.ConsumeInventoryItem(who, inputItem, baseOutputStack - requiredCountMin);
-                    // fixed android
-                    var ConsumeInventoryItem_Method = AccessTools.Method(typeof(SObject), nameof(SObject.ConsumeInventoryItem));
-                    ConsumeInventoryItem_Method.Invoke(null, [who, inputItem, baseOutputStack - requiredCountMin]);
+                    SObject.ConsumeInventoryItem(who, inputItem, baseOutputStack - requiredCountMin);
                 }
             }
         }
