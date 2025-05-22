@@ -1,7 +1,7 @@
 ﻿{
   "Name": "ExtraMachineConfig",
   "Author": "selph & NRTnarathip",
-  "Version": "1.17.1-unofficial.1-android",
+  "Version": "1.17.1-unofficial.2-android",
   "Description": "Add extra functionalities to machine artisan recipes and other misc data structures.",
   "UniqueID": "selph.ExtraMachineConfig",
   "EntryDll": "ExtraMachineConfig.dll",
