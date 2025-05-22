@@ -1,10 +1,10 @@
 ﻿{
   "Name": "ExtraMachineConfig",
-  "Author": "selph",
-  "Version": "1.17.0",
+  "Author": "selph & NRTnarathip",
+  "Version": "1.17.1-unofficial.1-android",
   "Description": "Add extra functionalities to machine artisan recipes and other misc data structures.",
   "UniqueID": "selph.ExtraMachineConfig",
   "EntryDll": "ExtraMachineConfig.dll",
   "MinimumApiVersion": "4.0.9",
-  "UpdateKeys": ["Nexus:22256"],
+  "UpdateKeys": [ "Nexus:22256" ],
 }

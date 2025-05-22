@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraMachineConfig", "ExtraMachineConfig.csproj", "{E3BC1EBF-508B-4FC0-A1A6-DCC088DF1697}"
 EndProject
 Global
@@ -13,5 +14,11 @@ Global
 		{E3BC1EBF-508B-4FC0-A1A6-DCC088DF1697}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3BC1EBF-508B-4FC0-A1A6-DCC088DF1697}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3BC1EBF-508B-4FC0-A1A6-DCC088DF1697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Common\Common.projitems*{e3bc1ebf-508b-4fc0-a1a6-dcc088df1697}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
